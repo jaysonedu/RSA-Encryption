@@ -11,8 +11,8 @@ public class main
     public static void main(String[] args)
     {
     // choose two primes    
-    int P = 53;
-    int Q = 59;
+    int P = args[0];
+    int Q = args[1];
     int N = P * Q;
     
     // totient for two primes is just product of one minus each of them
